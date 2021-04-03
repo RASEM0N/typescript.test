@@ -1,0 +1,15 @@
+// https://www.reddit.com/r/typescript/comments/kn8lap/error_ts2585_symbol_only_refers_to_a_type_but_is/
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "target": "es2015",
+    "lib": [
+      "es6",
+      "dom"
+    ]
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
